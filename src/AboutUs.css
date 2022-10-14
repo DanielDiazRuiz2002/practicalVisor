@@ -1,0 +1,29 @@
+#fondo {
+  z-index: 3;
+  width: 100%;
+  background-color: #ed3c3c;
+}
+
+#img-fondo {
+  width: 100%;
+  position: sticky;
+  background-image: url(../public/fondo.jpg);
+  background-size: cover;
+  top: 0px;
+  height: 1000px;
+}
+
+#cuerpo{
+  z-index: 6;
+  position: absolute;
+  top: 100px;
+}
+
+#footer-about-us{
+  color: white;
+  background-color: #ed3c3c;
+  position: static;
+  padding: 15px;
+  z-index: 4;
+  height: 200 px;
+}

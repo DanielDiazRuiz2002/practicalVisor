@@ -1,0 +1,17 @@
+div [id ^=button_nav]{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.5;
+}
+
+.flecha{
+    color: rgb(191, 191, 191);
+    font-size: 560%;
+    transform: scaleY(2);
+}
+
+div [id ^=prod]{
+    padding: 0;
+}

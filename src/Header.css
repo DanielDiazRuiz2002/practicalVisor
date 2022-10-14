@@ -1,0 +1,28 @@
+#header-top {
+  z-index: 5;
+}
+
+#imagen-fondo{
+  position: sticky;
+  background-image: url(../public/fondo.jpg);
+  background-size: cover;
+  backdrop-filter: blur(2px);
+  width: 100%;
+}
+
+#color-fondo{
+  position: sticky;
+  background-color: rgb(75, 75, 75);
+  opacity: 0.8;
+  width: 100%;
+}
+
+#arrow{
+  font-size: 12px;
+}
+
+@media (max-width: 500px) {
+  #name-enterprise {
+    font-size: 0%;
+  }
+}
